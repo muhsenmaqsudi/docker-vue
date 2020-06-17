@@ -7,3 +7,6 @@ before_install:
 
 script:
   - docker run -t muhsenmaqsudi/vue-docker npm run test:unit
+
+# deploy:
+#   provider: script
