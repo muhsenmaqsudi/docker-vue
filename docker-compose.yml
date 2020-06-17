@@ -21,4 +21,7 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
     command: ["npm", "run", "test:unit:watch"]
-    
+  server:
+    build: .
+    ports:
+      - 8081:80
